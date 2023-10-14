@@ -1,0 +1,57 @@
+h1, h2, h3, h4, h5, h6, p {
+    font-family: serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    /* text-align: justify; */
+    line-height: 1.35em;
+    margin-top: 2em;
+}
+
+a {
+    text-decoration: none;
+    font-family: monospace;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+blockquote {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 0em;
+    padding-left: 1em;
+    border-left: 2px solid;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 560px) {
+    .container {
+        width: 560px;
+        margin: auto;
+     }
+}
+
+@media (max-width: 560px) {
+    .container {
+        width: 100%;
+    }
+}
